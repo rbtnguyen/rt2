@@ -121,6 +121,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  min-width: 600px;
   z-index: 2;
 }
 
@@ -165,8 +166,26 @@ body {
   }
 }
 
+/* Some really fast responsive styles */
 @media screen and (max-width: 680px) {
   .pill-modal {
+    border-radius: 0;
+    min-width: 320px;
+    gap: 20px;
+    padding: 64px 12px;
     width: 100%;
   }
+
+  .pill-modal img {
+    height: 36px;
+  }
+
+  .pill-modal h2 {
+    font-size: 24px;
+  }
+
+  .pill-modal p{
+    font-size: 12px;
+  }
+
 }
