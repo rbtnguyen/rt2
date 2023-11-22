@@ -1,4 +1,4 @@
-Thanks for checking this out some notes:
+Thanks for checking this out, some notes:
 
 To get started
 
@@ -8,10 +8,9 @@ yarn start
 ```
 
 Links:
-[CodeSandox Live Preview](https://6n725p.csb.app/)
-[Sandbox/Code](https://codesandbox.io/p/sandbox/quizzical-mendel-6n725p)
-[Netlify Preview](https://master--harmonious-speculoos-cb9303.netlify.app/) <-Deployed it here just b/c CodeSandbox behaves a little unpredictably for me performance-wise
-
+- [CodeSandox Live Preview](https://6n725p.csb.app/)
+- [Sandbox/Code](https://codesandbox.io/p/sandbox/quizzical-mendel-6n725p)
+- [Netlify Preview](https://master--harmonious-speculoos-cb9303.netlify.app/) <-Deployed it here just b/c CodeSandbox behaves a little unpredictably for me performance-wise
 
 - The prompt specified animated but I don't think it explicitly said all the animation had to be of uniform speed so I opted to make them all slightly different speeds. Since it's not to fast I think grabs the attention while also not being too distracting. I prefer this now but I would understand if uniform speed might be a better option (in which case uncomment line 20 of PillRow.tsx would fix that).
 
