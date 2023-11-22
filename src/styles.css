@@ -1,0 +1,85 @@
+
+:root {
+  --pill-background: #ffffff;
+  --pill-shadow: #f7f7f7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F8F8F8;
+}
+
+.App {
+  align-items: center;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  font-family: Inter, 'system-ui', Arial, 'sans-serif';
+  text-align: center;
+  height: 500px; 
+}
+
+.pills-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 800px;
+  gap: 8px;
+  /* white-space: nowrap; */
+}
+
+.pills-row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.pills-container::after {
+  
+}
+
+.pills-container::before {
+
+}
+
+.pills-group {
+  animation: 20s drift infinite linear;
+  display: flex;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  /* gap: 15px; */
+
+}
+
+.pill {
+  align-items: center;
+  background: var(--pill-background);
+  border: 1px solid black;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  margin: 0 8px;
+  padding: 5px;
+
+
+}
+
+.pill img {
+  height: 15px;
+  width: auto;
+}
+
+@keyframes drift {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
